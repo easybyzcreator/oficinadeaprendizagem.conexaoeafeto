@@ -1,0 +1,6 @@
+{
+  "name": "Oficinas Terapêuticas",
+  "description": "Página oficial de divulgação, oficinas e inscrição para as Oficinas Terapêuticas Neuropsicopedagógicas e Arteterapêuticas com Adriana Bueno Marques e Fabrine Fernandes.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

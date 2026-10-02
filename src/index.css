@@ -1,0 +1,47 @@
+@import "tailwindcss";
+
+@layer base {
+  :root {
+    --color-primary: #FA4E74;
+    --color-gray: #606060;
+    --color-sky: #68C9EA;
+    --color-green: #56C45F;
+    --color-yellow: #F9DC3F;
+    --color-gold: #D4AF37;
+    --color-white: #FFFFFF;
+    --color-lilac: #8D72A8;
+    --color-softrose: #E58B92;
+    --color-olive: #9A9A5A;
+    --color-terracotta: #D8B08C;
+  }
+
+  body {
+    font-family: 'Plus Jakarta Sans', system-ui, -apple-system, sans-serif;
+    color: #606060;
+    background-color: #FAF8F5;
+  }
+
+  h1, h2, h3, h4, .font-heading {
+    font-family: 'Outfit', 'Plus Jakarta Sans', sans-serif;
+  }
+}
+
+/* Custom delicate animation effects */
+@keyframes float-slow {
+  0%, 100% { transform: translateY(0px); }
+  50% { transform: translateY(-8px); }
+}
+
+.animate-float {
+  animation: float-slow 4s ease-in-out infinite;
+}
+
+.gold-gradient {
+  background: linear-gradient(135deg, #D4AF37 0%, #F5DE88 50%, #C59B27 100%);
+}
+
+.gold-text {
+  background: linear-gradient(135deg, #C59B27 0%, #D4AF37 50%, #B2881D 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}

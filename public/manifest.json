@@ -1,0 +1,32 @@
+{
+  "id": "/",
+  "name": "Oficina de Aprendizagem",
+  "short_name": "Aprendizagem",
+  "description": "Oficina de Aprendizagem Neuropsicopedagógica e Arteterapêutica com Adriana Bueno Marques e Fabrine Fernandes.",
+  "start_url": "/",
+  "scope": "/",
+  "display": "standalone",
+  "theme_color": "#FA4E74",
+  "background_color": "#FAF8F5",
+  "orientation": "portrait",
+  "icons": [
+    {
+      "src": "https://i.ibb.co/sYZVGfh/patitour-2026-09-30-T175240-786.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "https://i.ibb.co/sYZVGfh/patitour-2026-09-30-T175240-786.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "https://i.ibb.co/sYZVGfh/patitour-2026-09-30-T175240-786.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}
